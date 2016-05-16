@@ -30,6 +30,8 @@ public class MainActivity extends Activity {
                 return false;
             }
         });
+
+        toolbar.inflateMenu(R.menu.menu);
     }
 
 
