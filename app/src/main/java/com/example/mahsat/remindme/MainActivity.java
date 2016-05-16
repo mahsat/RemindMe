@@ -1,15 +1,17 @@
 package com.example.mahsat.remindme;
 
-import android.app.Activity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private android.support.v7.widget.Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppDefault);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_main);
 
