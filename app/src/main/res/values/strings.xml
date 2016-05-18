@@ -2,4 +2,11 @@
     <string name="app_name">RemindMe</string>
     <string name="search_title">search_title</string>
     <string name="menu_item_notification">Напоминания</string>
+    <string name="menu_item_liked">Избранное</string>
+    <string name="menu_item_archive">Архив</string>
+    <string name="menu_item_settings">Настройки</string>
+    <string name="menu_item_info">Справка</string>
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+    <string name="this_is_fragment">This is fragment</string>
 </resources>

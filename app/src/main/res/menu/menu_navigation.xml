@@ -3,10 +3,42 @@
 
 
     <item
+        android:id="@+id/actionNotificationItem"
         android:orderInCategory="1"
         android:title="@string/menu_item_notification"
         android:icon="@mipmap/ic_message_black_24dp">
 
     </item>
+
+    <item
+        android:orderInCategory="2"
+        android:title="@string/menu_item_liked"
+        android:icon="@mipmap/ic_star_rate_black_18dp">
+
+    </item>
+
+
+    <item
+        android:orderInCategory="3"
+        android:title="@string/menu_item_archive"
+        android:icon="@mipmap/ic_archive_black_36dp">
+
+    </item>
+
+
+    <item
+        android:orderInCategory="4"
+        android:title="@string/menu_item_settings"
+        android:icon="@mipmap/ic_settings_black_36dp">
+
+    </item>
+
+    <item
+        android:orderInCategory="5"
+        android:title="@string/menu_item_info"
+        android:icon="@mipmap/ic_info_black_36dp">
+
+    </item>
+
 
 </menu>
