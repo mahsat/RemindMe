@@ -9,4 +9,13 @@
     <string name="Close">Close</string>
     <string name="Open">Open</string>
     <string name="this_is_fragment">This is fragment</string>
+    <string name="name_app">RemindMe</string>
+
+
+    <string name="tab_item_history">History</string>
+    <string name="tab_item_idea">Idea</string>
+    <string name="tab_item_todo">Todo</string>
+    <string name="tab_item_birthday">Birthday</string>
+
+
 </resources>

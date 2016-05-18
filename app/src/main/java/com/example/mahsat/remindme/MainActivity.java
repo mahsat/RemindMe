@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initToolbar() {
         toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(R.string.app_name);
-        toolbar.setTitleTextColor(getColor(R.color.colorBackground));
+        toolbar.setTitle(R.string.name_app);
         toolbar.setOnMenuItemClickListener(new android.support.v7.widget.Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
@@ -63,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 drawerlayout.closeDrawers();
+
                 switch (menuItem.getItemId()){
                     case R.id.actionNotificationItem:
                         showNotificationTab();
